@@ -1,4 +1,29 @@
 import requests, json, random, time, socket, platform
+#py 
+
+
+#WELCOME MESSAGE
+print('\n')
+print('''
+ ZPGZPGZPGZPGZPG     ZPGZPGZPGZPGZPG        ZPGZPGZPGZPGZPG
+             ZPG   ZPG             ZPG   ZPG               ZPG
+            ZPG    ZPG             ZPG   ZPG               ZPG
+           ZPG     ZPG             ZPG   ZPG               ZPG
+          ZPG      ZPG             ZPG   ZPG               ZPG
+         ZPG       ZPG             ZPG   ZPG
+        ZPG        ZPG             ZPG   ZPG
+       ZPG         ZPGZPGZPGZPGZPGZPG    ZPGZPGZPGZPGZPGZPGZPG
+      ZPG          ZPG                   ZPG               ZPG
+     ZPG           ZPG                   ZPG               ZPG
+    ZPG            ZPG                   ZPG               ZPG
+   ZPG             ZPG                   ZPG               ZPG
+  ZPG              ZPG                   ZPG               ZPG
+ ZPG               ZPG                   ZPG               ZPG
+ ZPGZPGZPGZPGZPG   ZPG                      ZPGZPGZPGZPGZPG
+\n''')
+
+print('Welcome to Zorkol Password Generator (ZPG).\n')
+               
 
 timestr = time.strftime("%Y-%m-%d - %H:%M:%S UTC")
 nameid = "VicRoesems"
