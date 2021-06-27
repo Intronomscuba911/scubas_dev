@@ -1,29 +1,4 @@
 import requests, json, random, time, socket, platform
-#py 
-
-
-#WELCOME MESSAGE
-print('\n')
-print('''
- ZPGZPGZPGZPGZPG     ZPGZPGZPGZPGZPG        ZPGZPGZPGZPGZPG
-             ZPG   ZPG             ZPG   ZPG               ZPG
-            ZPG    ZPG             ZPG   ZPG               ZPG
-           ZPG     ZPG             ZPG   ZPG               ZPG
-          ZPG      ZPG             ZPG   ZPG               ZPG
-         ZPG       ZPG             ZPG   ZPG
-        ZPG        ZPG             ZPG   ZPG
-       ZPG         ZPGZPGZPGZPGZPGZPG    ZPGZPGZPGZPGZPGZPGZPG
-      ZPG          ZPG                   ZPG               ZPG
-     ZPG           ZPG                   ZPG               ZPG
-    ZPG            ZPG                   ZPG               ZPG
-   ZPG             ZPG                   ZPG               ZPG
-  ZPG              ZPG                   ZPG               ZPG
- ZPG               ZPG                   ZPG               ZPG
- ZPGZPGZPGZPGZPG   ZPG                      ZPGZPGZPGZPGZPG
-\n''')
-
-print('Welcome to Zorkol Password Generator (ZPG).\n')
-               
 
 timestr = time.strftime("%Y-%m-%d - %H:%M:%S UTC")
 nameid = "VicRoesems"
@@ -32,16 +7,38 @@ yamlid = "generate-code"
 f = open("./README.md", "w")
 f.write(f'''
 
-<a href="https://github.com/{nameid}"><h3 align="center"><b>{nameid}</b></h3></a>
 
-<h3 align="center">Have a nice day!</h3>
+
+<h3 align="left">🧑🏻‍💻 Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a></p>
+
+
+
+
+<table style="margin:0 0;">
+<tr>
+	<td>
+<p>&nbsp;<img align="left"  src="https://github-readme-stats.vercel.app/api?username=scallions&show_icons=true&locale=en" alt="scallions" /></p>
+	</td>
+	<td>
+<p><img align="right"  src="https://github-readme-stats.vercel.app/api/top-langs?username=scallions&show_icons=true&locale=en&layout=compact" alt="scallions" /></p>
+	</td>
+</tr>
+<tr>
+	<td>
+<p><img align="left"  src="https://github-readme-streak-stats.herokuapp.com/?user=scallions&" alt="scallions" /></p>
+	</td>
+	<td>
+<p><img align="right"  src="https://stats.justsong.cn/api/leetcode?username=scallions&cn=true" /></p>
+	</td>
+</tr>
+</table>
 
 <p align="center">
 
-  <a href="https://github.com/{nameid}">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username={nameid}&hide=issues&hide_title=true&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
-   </a>
-   
+  
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=scallions&label=Profile%20views&color=0e75b6&style=flat" alt="scallions" /> </p>
+
 #### This Page Create at:
 
 ```bash
@@ -61,22 +58,6 @@ platform  : {platform.platform()}
 Ip Local  : {socket.gethostbyname(socket.gethostname())}
 
 ```
-
-[![build_firmware](https://github.com/{nameid}/{nameid}/actions/workflows/generate_readme.yml/badge.svg)](https://github.com/{nameid}/{nameid}/actions/workflows/generate_readme.yml) [![{yamlid}](https://github.com/{nameid}/{repoid}/actions/workflows/{yamlid}.yml/badge.svg)](https://github.com/{nameid}/{repoid}/actions/workflows/{yamlid}.yml)
-
-#### Download This code Here:
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/{nameid}/{repoid}?style=for-the-badge&label=Download)](https://github.com/{nameid}/{repoid}/releases) 
-
 </p> 
-
-#### About Me :
-
-```bash
-
-{nameid}
-
-```
-
 ''')
 f.close()
